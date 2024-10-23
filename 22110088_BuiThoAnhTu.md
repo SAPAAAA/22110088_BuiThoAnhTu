@@ -74,7 +74,7 @@ Get the URL at the page
 ![Get the URL](https://github.com/user-attachments/assets/008a3c9e-32fb-45ff-9369-d9f863d58934)
 
 Get the page cookies through Chrome DevTools
-![Get cookies thourgh Chrom Devtool](https://github.com/user-attachments/assets/840826ad-4439-42b3-b5bd-d72fcd661fb5)
+![Get cookies through Chrome Devtool](https://github.com/user-attachments/assets/ceec14be-14b4-4b35-ae28-472969912817)
 
 Find the available databases with the cookies
 ```bash
