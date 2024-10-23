@@ -38,28 +38,27 @@ void main() {
 - Write step-by-step explanation and clearly comment on instructions and screenshots that you have made to successfully accomplished the attack.
 **Answer 1**: Must conform to below structure:
 Compile the shellcode:
-```
+```bash
 gcc -g -fno-stack-protector -z execstack -o shellcode shellcode.c -mpreferred-stack-boundary=2
 ```
 Compile the C program:
-```
+```bash
 gcc -g -fno-stack-protector -z execstack -o vulnerability vulnerability.c -mpreferred-stack-boundary=2
 ```
 Make the shellcode executed as root:
-```
+```bash
 sudo chown root shellcode
 sudo chmod 4777 shellcode
 ```
 Disable the Address Space Layout Randomization (ASLR)
-```
+```bash
 sudo sysctl -w kernel.randomize_va_space=0
 ```
 
 Create a symbolic link to /bin/sh
-```
+```bash
 sudo ln -sf /bin/zsh /bin/sh
 ```
-
 
 # Task 2: Attack on the database of bWapp 
 - Install bWapp (refer to quang-ute/Security-labs/Web-security). 
