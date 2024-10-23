@@ -90,110 +90,33 @@ Get the available tables in the database
 ```
 ![Available tables](https://github.com/user-attachments/assets/a13b0d64-ded1-4dbc-8a82-72597e3622f4)
 
-[40 tables]
-+----------------------------------------------+
-| CHARACTER_SETS                               |
-| COLLATIONS                                   |
-| COLLATION_CHARACTER_SET_APPLICABILITY        |
-| COLUMN_PRIVILEGES                            |
-| FILES                                        |
-| GLOBAL_STATUS                                |
-| GLOBAL_VARIABLES                             |
-| INNODB_BUFFER_PAGE                           |
-| INNODB_BUFFER_PAGE_LRU                       |
-| INNODB_BUFFER_POOL_STATS                     |
-| INNODB_CMP                                   |
-| INNODB_CMPMEM                                |
-| INNODB_CMPMEM_RESET                          |
-| INNODB_CMP_RESET                             |
-| INNODB_LOCKS                                 |
-| INNODB_LOCK_WAITS                            |
-| INNODB_TRX                                   |
-| KEY_COLUMN_USAGE                             |
-| PARAMETERS                                   |
-| PROFILING                                    |
-| REFERENTIAL_CONSTRAINTS                      |
-| ROUTINES                                     |
-| SCHEMATA                                     |
-| SCHEMA_PRIVILEGES                            |
-| SESSION_STATUS                               |
-| SESSION_VARIABLES                            |
-| STATISTICS                                   |
-| TABLESPACES                                  |
-| TABLE_CONSTRAINTS                            |
-| TABLE_PRIVILEGES                             |
-| USER_PRIVILEGES                              |
-| VIEWS                                        |
-| COLUMNS                                      |
-| ENGINES                                      |
-| EVENTS                                       |
-| PARTITIONS                                   |
-| PLUGINS                                      |
-| PROCESSLIST                                  |
-| TABLES                                       |
-| TRIGGERS                                     |
-+----------------------------------------------+
+### Database: General (40 Tables)
+| CHARACTER_SETS  | COLLATIONS  | COLLATION_CHARACTER_SET_APPLICABILITY  | COLUMN_PRIVILEGES  | FILES  |  
+|---|---|---|---|---|  
+| GLOBAL_STATUS  | GLOBAL_VARIABLES  | INNODB_BUFFER_PAGE  | INNODB_BUFFER_PAGE_LRU  | INNODB_BUFFER_POOL_STATS  |  
+| INNODB_CMP  | INNODB_CMPMEM  | INNODB_CMPMEM_RESET  | INNODB_CMP_RESET  | INNODB_LOCKS  |  
+| INNODB_LOCK_WAITS  | INNODB_TRX  | KEY_COLUMN_USAGE  | PARAMETERS  | PROFILING  |  
+| REFERENTIAL_CONSTRAINTS  | ROUTINES  | SCHEMATA  | SCHEMA_PRIVILEGES  | SESSION_STATUS  |  
+| SESSION_VARIABLES  | STATISTICS  | TABLESPACES  | TABLE_CONSTRAINTS  | TABLE_PRIVILEGES  |  
+| USER_PRIVILEGES  | VIEWS  | COLUMNS  | ENGINES  | EVENTS  |  
+| PARTITIONS  | PLUGINS  | PROCESSLIST  | TABLES  | TRIGGERS  |
 
-Database: bWAPP
-[5 tables]
-+----------------------------------------------+
-| blog                                         |
-| heroes                                       |
-| movies                                       |
-| users                                        |
-| visitors                                     |
-+----------------------------------------------+
+### Database: bWAPP (5 Tables)
+| blog  | heroes  | movies  | users  | visitors  |
 
-Database: mysql
-[24 tables]
-+----------------------------------------------+
-| event                                        |
-| host                                         |
-| plugin                                       |
-| user                                         |
-| columns_priv                                 |
-| db                                           |
-| func                                         |
-| general_log                                  |
-| help_category                                |
-| help_keyword                                 |
-| help_relation                                |
-| help_topic                                   |
-| ndb_binlog_index                             |
-| proc                                         |
-| procs_priv                                   |
-| proxies_priv                                 |
-| servers                                      |
-| slow_log                                     |
-| tables_priv                                  |
-| time_zone                                    |
-| time_zone_leap_second                        |
-| time_zone_name                               |
-| time_zone_transition                         |
-| time_zone_transition_type                    |
-+----------------------------------------------+
+### Database: mysql (24 Tables)
+| event  | host  | plugin  | user  | columns_priv  |  
+| db  | func  | general_log  | help_category  | help_keyword  |  
+| help_relation  | help_topic  | ndb_binlog_index  | proc  | procs_priv  |  
+| proxies_priv  | servers  | slow_log  | tables_priv  | time_zone  |  
+| time_zone_leap_second  | time_zone_name  | time_zone_transition  | time_zone_transition_type  |
 
-Database: performance_schema
-[17 tables]
-+----------------------------------------------+
-| cond_instances                               |
-| events_waits_current                         |
-| events_waits_history                         |
-| events_waits_history_long                    |
-| events_waits_summary_by_instance             |
-| events_waits_summary_by_thread_by_event_name |
-| events_waits_summary_global_by_event_name    |
-| file_instances                               |
-| file_summary_by_event_name                   |
-| file_summary_by_instance                     |
-| mutex_instances                              |
-| performance_timers                           |
-| rwlock_instances                             |
-| setup_consumers                              |
-| setup_instruments                            |
-| setup_timers                                 |
-| threads                                      |
-+----------------------------------------------+
+### Database: performance_schema (17 Tables)
+| cond_instances  | events_waits_current  | events_waits_history  | events_waits_history_long  | events_waits_summary_by_instance  |  
+| events_waits_summary_by_thread_by_event_name  | events_waits_summary_global_by_event_name  | file_instances  | file_summary_by_event_name  | file_summary_by_instance  |  
+| mutex_instances  | performance_timers  | rwlock_instances  | setup_consumers  | setup_instruments  |  
+| setup_timers  | threads  |
+
 
 Get the columns in users table in bWAPP database
 ```bash
