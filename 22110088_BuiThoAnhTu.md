@@ -90,6 +90,9 @@ Get the available tables in the database
 ```
 ![Available tables](https://github.com/user-attachments/assets/a13b0d64-ded1-4dbc-8a82-72597e3622f4)
 
+Know the stack frame of the vulnerability file
+![image](https://github.com/user-attachments/assets/b86505ea-f4d3-49fb-8f61-3a86a224e0d1)
+
 # Databases and Tables
 
 ## Database: bWAPP
