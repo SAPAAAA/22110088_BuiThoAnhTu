@@ -220,6 +220,7 @@ Output
 ![Output stored](https://github.com/user-attachments/assets/1cd28001-6256-47e6-944f-c218788ede24)
 
 Remove the decrypted password from the file
+
 Use John the Ripper to crack the password
 ```bash
 .\john --format=Raw-SHA1 C:\Users\ADMIN\Downloads\passwords.txt
