@@ -60,6 +60,9 @@ Create a symbolic link to /bin/sh
 sudo ln -sf /bin/zsh /bin/sh
 ```
 
+Know the stack frame of the vulnerability file
+![image](https://github.com/user-attachments/assets/b86505ea-f4d3-49fb-8f61-3a86a224e0d1)
+
 # Task 2: Attack on the database of bWapp 
 - Install bWapp (refer to quang-ute/Security-labs/Web-security). 
 - Install sqlmap.
@@ -90,8 +93,6 @@ Get the available tables in the database
 ```
 ![Available tables](https://github.com/user-attachments/assets/a13b0d64-ded1-4dbc-8a82-72597e3622f4)
 
-Know the stack frame of the vulnerability file
-![image](https://github.com/user-attachments/assets/b86505ea-f4d3-49fb-8f61-3a86a224e0d1)
 
 # Databases and Tables
 
